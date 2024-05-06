@@ -274,6 +274,7 @@ button,
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+  appearance: button;
 }
 
 button:not(:disabled),
@@ -302,6 +303,7 @@ input[type="time"],
 input[type="datetime-local"],
 input[type="month"] {
   -webkit-appearance: listbox;
+  appearance: listbox;
 }
 
 textarea {
@@ -340,6 +342,7 @@ progress {
 [type="search"] {
   outline-offset: -2px;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 [type="search"]::-webkit-search-decoration {
@@ -11230,7 +11233,7 @@ p {
           transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  background: rgba(248, 92, 112, 0.8);
+  background: rgba(128, 128, 128, 0.8);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11261,6 +11264,16 @@ p {
   font-weight: 500;
   opacity: 1;
   color: #fff;
+}
+
+.portfolio .portfolio-container .portfolio-item .content-holder .button {
+  font-weight: 500;
+  opacity: 1;
+  background-color: rgba(30, 30, 30, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 6px;
+  border-radius: 8px;
+  color: white;
 }
 
 .portfolio .portfolio-container .portfolio-item:hover .content-holder {
@@ -11506,8 +11519,8 @@ pre .code {
   position: relative;
   height: 80vh;
   min-height: 600px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/head.jpeg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/head.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
